@@ -1,6 +1,6 @@
 <?php
 
-namespace Bermuda\HTTP;
+namespace Bermuda\HTTP\Parser;
 
 class ParserException extends Exception\BadRequestException
 {
