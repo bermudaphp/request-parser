@@ -1,6 +1,6 @@
 <?php
 
-namespace Bermuda\HTTP;
+namespace Bermuda\HTTP\Parser;
 
 use Bermuda\DataObj;
 use Psr\Http\Message\ServerRequestInterface;
