@@ -10,7 +10,7 @@ final class ParseId implements ParserInterface
     }
 
     /**
-     * @params string $ids
+     * @param string $ids
      * @return int[]
      * @throws ParserException
      */
