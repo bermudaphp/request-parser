@@ -2,7 +2,9 @@
 
 namespace Bermuda\HTTP\Parser;
 
-class ParserException extends Exception\BadRequestException
+use Bermuda\HTTP\Exception\BadRequestException;
+
+class ParserException extends BadRequestException
 {
     public function __construct(string $reasonPhrase = null)
     {
